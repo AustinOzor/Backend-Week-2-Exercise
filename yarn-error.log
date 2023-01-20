@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\augus\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\augus\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\augus\AppData\Local\Microsoft\WindowsApps;C:\Users\augus\AppData\Local\GitHubDesktop\bin;C:\Users\augus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\augus\AppData\Roaming\npm;C:\Users\augus\AppData\Local\gitkraken\bin;C:\Users\augus\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\augus\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\augus\OneDrive\Desktop\CodeTrain\Http Server\package.json: Unexpected string in JSON at position 169
+      at JSON.parse (<anonymous>)
+      at C:\Users\augus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\augus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\augus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "http_server",
+    "version": "1.0.0",
+    "description": "A node server with http package",
+    "main": "index.js",
+    "author": "Augustine",
+    "license": "MIT"
+    "scripts":{
+     "start": "node index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
